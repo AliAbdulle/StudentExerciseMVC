@@ -5,10 +5,13 @@ using System.Threading.Tasks;
 
 namespace StudentExercise.Models
 {
-    public class CohortOne
+    public class ExercisesL
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public string Language { get; set; }
+
+
     }
 }

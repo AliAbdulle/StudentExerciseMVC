@@ -14,6 +14,6 @@ namespace StudentExercise.Models
         public int CohortOneId { get; set; }
         public CohortOne cohortOne { get; set; }
 
-        List<ExerciseL> Exercises = new List<ExerciseL>();
+        List<ExercisesL> Exercises = new List<ExercisesL>();
     }
 }

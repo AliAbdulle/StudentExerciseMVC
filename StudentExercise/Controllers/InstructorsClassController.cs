@@ -224,7 +224,7 @@ namespace StudentExercise.Controllers
 
                     using (SqlCommand cmd = conn.CreateCommand())
                     {
-                        cmd.CommandText = @" Delete from InstructorsClass Where InstructorsClassId = @id;
+                        cmd.CommandText = @" Delete from InstructorsClass Where Id = @id;
                                             Delete from CohortOne Where Id = @id ";
 
                         cmd.Parameters.Add(new SqlParameter("@Id", id));
